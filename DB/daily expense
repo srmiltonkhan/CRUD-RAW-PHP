@@ -2,12 +2,3 @@ date,
 expenses head
 reparks
 cost amount
-
-
-CREATE TABLE daily_expenses(
-  id INT(11) AUTO_INCREMENT PRIMARY KEY,
-  expense_date Date(20) NOT NULL,
-  expenses_head Varchar(30) NOT NULL,
-  remark TEXT,
-  cost_amt decimal(8,2) NOT Null  
-);
